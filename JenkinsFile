@@ -1,0 +1,10 @@
+node { 
+	
+	stage('gradle clean') {
+		sh 'gradle clean'
+	} 
+	stage('build') {
+		sh 'gradle build'
+	} 
+	
+}
